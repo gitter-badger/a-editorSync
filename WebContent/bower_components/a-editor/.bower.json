@@ -1,0 +1,40 @@
+{
+  "name": "a-editor",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "homepage": "https://github.com/rodrigoprestesmachado/a-editor",
+  "authors": [
+    "Rodrigo Prestes Machado <rodrigo.prestes@gmail.com>"
+  ],
+  "description": "Accessible Rich Internet Applications Text Editor",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "editor",
+    "accessible",
+    "web-components"
+  ],
+  "license": "Apache",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "polymer",
+    "webcomponentsjs",
+    "test",
+    "tests"
+  ],
+  "_release": "efc1ff4bfe",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "efc1ff4bfe9096cf474684fe3b459c071fc1d04f"
+  },
+  "_source": "git://github.com/rodrigoprestesmachado/a-editor.git",
+  "_target": "*",
+  "_originalSource": "a-editor",
+  "_direct": true
+}
