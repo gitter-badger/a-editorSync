@@ -20,9 +20,9 @@ $(document).ready(function() {
 	// Create a new instance of the websocket
 	webSocket = null;
     if (window.MozWebSocket)
-    	webSocket = new MozWebSocket("ws://localhost:8080/A-EditorSync/WebSocket");
+    	webSocket = new MozWebSocket("ws://code.inf.poa.ifrs.edu.br:8080/A-EditorSync/WebSocket");
 	else
-		webSocket = new WebSocket("ws://localhost:8080/A-EditorSync/WebSocket");
+		webSocket = new WebSocket("ws://code.inf.poa.ifrs.edu.br:8080/A-EditorSync/WebSocket");
     
     webSocket.onmessage = function(event){
     	if (event.data == "del")
