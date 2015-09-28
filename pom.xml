@@ -29,11 +29,11 @@
 	                </execution>
 	            </executions>
 	            <configuration>
-	                <file>target/A-EditorSync-0.1/events.js</file>
+	                <file>WebContent/events.js</file>
 	                <replacements>
 	                    <replacement>
 	                        <token>REPLACE_URL</token>
-	                        <value>code.inf.poa.ifrs.edu.br</value>
+                            <value>${replace.url}</value>
 	                    </replacement>
 	                </replacements>                        
 	            </configuration>
