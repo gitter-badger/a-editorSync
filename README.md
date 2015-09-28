@@ -6,4 +6,7 @@ A-Editor Syncronizer
 
 
 #Demonstration
-[![ScreenShot](https://github.com/rodrigoprestesmachado/a-editorSync/blob/master/WebContent/img/demo/example1.jpg)](https://vimeo.com/140615850)
+[<img src="https://github.com/rodrigoprestesmachado/a-editorSync/blob/master/WebContent/img/demo/example1.jpg" width="480" height="267" />](https://vimeo.com/140615850)
+
+
+
