@@ -27,7 +27,7 @@ import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
 @ServerEndpoint("/document")
-public class DocumentWebSocket {
+public class Document {
 
 	private static Set<Session> clients = Collections.synchronizedSet(new HashSet<Session>());
 

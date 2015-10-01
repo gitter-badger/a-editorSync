@@ -35,6 +35,10 @@
 	                        <token>REPLACE_URL</token>
                             <value>${replace.url}</value>
 	                    </replacement>
+	                    <replacement>
+	                        <token>REPLACE_PORT</token>
+                            <value>${replace.port}</value>
+	                    </replacement>
 	                </replacements>                        
 	            </configuration>
         	</plugin>
