@@ -13,42 +13,65 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- .textEditor {
+a-editor /deep/ .textEditor {
+    
+    background-color: #FFFFFF;
+    
     border-style: solid;
     border-width: 1px;
+    border-color: #FFFFFF;
     
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 40%;
     
     position: absolute; 
-    top: 0; 
-    left: 25%;
+    top: 0;
+    
+    left: 20%;
 }
 
-.textArea {
+a-editor /deep/ .menu {
+    
+    background-color: #F5F5F5;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    
+    width: 95%;
+    height: 10%;
+    
+    margin: 0 auto;
+}
+
+a-editor /deep/ .textArea {
+    
     font-family: "arial";
-    font-size: 12px;
+    font-size: 16px;
     
-    margin: 0 auto;
+    background-color: white;
+
+    border-color: #C8C8C8;
     border-style: solid;
     border-width: 1px;
-    border-color:blue;
     
-    width: 95%;
-    height: 91%;
-    
-    overflow: auto;
-    
-}
-
-.menu {
-    border-style: solid;
-    border-width: 1px;
-    width: 95%;
-    height: 8%;
     margin: 0 auto;
+    width: 95%;
+    height: 89%;
+    margin-bottom: 5px;
+    
+    -webkit-box-shadow: 8px 9px 13px -4px rgba(199,189,199,0.73);
+    -moz-box-shadow: 8px 9px 13px -4px rgba(199,189,199,0.73);
+    box-shadow: 8px 9px 13px -4px rgba(199,189,199,0.73);
 }
 
-.hide{
-    display: none;
+a-editor /deep/ button {
+    font-size: 110%;
+    color: black;
+    border-radius: 3px;
+}
+
+a-editor /deep/ select {
+    font-size: 105%;
+    border-radius: 4px;
 }

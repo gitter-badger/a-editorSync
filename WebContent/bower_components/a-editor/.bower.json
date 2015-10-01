@@ -27,14 +27,13 @@
     "test",
     "tests"
   ],
-  "_release": "efc1ff4bfe",
+  "_release": "834a280e50",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "efc1ff4bfe9096cf474684fe3b459c071fc1d04f"
+    "commit": "834a280e501b8aa909bc031c6534f04f4f87bf3d"
   },
   "_source": "git://github.com/rodrigoprestesmachado/a-editor.git",
   "_target": "*",
-  "_originalSource": "a-editor",
-  "_direct": true
+  "_originalSource": "a-editor"
 }

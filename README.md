@@ -1,5 +1,5 @@
-# A-Editor Syncronizer
-A-Editor Syncronizer is a Java EE application that uses Web Socket to sincronize in real time the content produced by [A-Editor](https://github.com/rodrigoprestesmachado/a-editor) and enable collaboration among users. 
+# A-Editor Synchronizer
+A-Editor Synchronizer is a Java EE application that uses Web Socket to sync in real time the content produced by [A-Editor](https://github.com/rodrigoprestesmachado/a-editor) and enable collaboration among users, especially blind users.
 
 #Demo
 [Ckeck it live](http://code.inf.poa.ifrs.edu.br:8080/A-EditorSync/)

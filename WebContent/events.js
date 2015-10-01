@@ -20,9 +20,9 @@ $(document).ready(function() {
 	// Create a new instance of the websocket
 	webSocket = null;
     if (window.MozWebSocket)
-    	webSocket = new MozWebSocket("ws://REPLACE_URL:8080/A-EditorSync/WebSocket");
+    	webSocket = new MozWebSocket("ws://REPLACE_URL:REPLACE_PORT/A-EditorSync/document");
 	else
-		webSocket = new WebSocket("ws://REPLACE_URL:8080/A-EditorSync/WebSocket");
+		webSocket = new WebSocket("ws://REPLACE_URL:REPLACE_PORT/A-EditorSync/document");
     
     webSocket.onmessage = function(event){
     	if (event.data == "del")
@@ -42,5 +42,9 @@ $(document).ready(function() {
     aEditor.addEventListener("deleteKey", function(e) {
         webSocket.send("del");
     });
+    
+    // Hides the send button (not necessary to synchronizer)
+    var actionButton = document.getElementById("actionButton");
+    actionButton.style.display = "none";
     
 });
